@@ -31,3 +31,7 @@ h3{
     margin: 15px;
     text-align: center;
 }
+
+a:hover{
+    color:aquamarine
+}
