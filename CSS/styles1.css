@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    margin: 10px;
+}
+
+h2{
+    text-align: center;
+    margin: 30px;
+}
+
+.contenedor-one{
+    width: 300px;
+    height: 300px;
+    border: 2px solid #000;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.contenedor-two{
+    width: 300px;
+    height: 300px;
+    border: 2px solid #000;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;    
+}
+
+.contenedor-three{
+    height: 100px;
+    border: 2px solid #000;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caja {
+    width: 100px;
+    height: 100px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+.uno{
+    background: red;
+    color: white;
+}
+
+.dos{
+    background: blue;
+    color: white;
+}
+
+.tres{
+    background: green;
+    color: white;
+}
