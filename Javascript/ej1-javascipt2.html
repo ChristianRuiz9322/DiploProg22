@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio con Javascript</title>
+</head>
+<body>
+    <div class="contenedor">    
+        <div class="caja red" onclick="cambiarFondo('red')"></div>
+        <div class="caja blue" onclick="cambiarFondo('blue')"></div>
+        <div class="caja green" onclick="cambiarFondo('green')"></div>
+    </div>
+    <style>
+        .contenedor{
+            display: flex;
+        }
+
+        .caja{
+            height: 100px;
+            width: 100px;
+            cursor: pointer;
+        }
+
+        .red{
+            background-color: red;
+        }
+        
+        .blue{
+            background-color: blue;
+        }
+        
+        .green{
+            background-color: green;
+        }
+
+    </style>
+    <script>
+        function cambiarFondo(color) {
+            document.querySelector('body').style.background = color
+        }
+    </script>
+</body>
+</html>
